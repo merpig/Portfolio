@@ -1,0 +1,133 @@
+.App {
+  background-color: rgba(0,0,0,.75);
+  min-height: 100vh;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+  /* font-weight: 600; */
+  
+  /* text-shadow: 0 0 80px rgb(192 219 255 / 48%), 0 0 32px rgb(65 120 255 / 24%); */
+  
+}
+
+.header-text{
+  width: 100%;
+  text-align: center;
+  background-color:rgba(71, 61, 139);
+}
+
+.description {
+  z-index: 1;
+  padding-bottom: 80px;
+}
+
+.about-me{
+  position: relative;
+  min-height: 30vh;
+}
+
+.title-text {
+  text-shadow: 0 0 80px rgb(192 219 255 / 48%), 0 0 32px rgb(65 120 255 / 24%);
+  color: white;
+  text-align: left;
+}
+
+.main-title {
+  font-size: calc(50px + 2vmin);
+  text-align: center;
+}
+
+.text{
+  font-weight: 200;
+}
+
+.btn-custom{
+  color: white;
+  background-color:rgba(71, 61, 139, 0.8);
+  border-radius: .175rem;
+}
+
+.btn-custom:hover{
+  background-color:rgba(71, 61, 139);
+}
+
+.btn-custom:active{
+  background-color:rgba(71, 61, 139, 0.6)!important;
+  border-color: rgba(71, 61, 139, 0.6)!important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card-wrapper{
+  margin-top: 100px;
+}
+
+.project-card{
+  border: .5px solid rgba(71, 61, 139, 0.6);
+  border-radius: .25rem;
+  box-shadow: 0 0 40px rgb(192 219 255 / 12%), 0 0 32px rgb(65 120 255 / 6%);
+}
+
+.card-body{
+  border-top: .5px solid rgba(71, 61, 139, 0.6);
+  border-bottom: .5px solid rgba(71, 61, 139, 0.6);
+}
+
+.panel-left{
+  border-right: .5px solid rgba(71, 61, 139, 0.6);
+  padding: 0px;
+}
+
+.panel-right{
+  border-left: .5px solid rgba(71, 61, 139, 0.6);
+  padding-right: 0px;
+}
+
+.header-image{
+  position: absolute;
+  right: -80px;
+  top: -40px;
+  width: min-content;
+  z-index: 0;
+  transform-origin: right center;
+  transform: perspective(120px) rotateY(-4deg) translatez(0) translatex(-80px);
+  opacity: .2;
+}
+
+.project-title{
+  color: lightgray
+}
+
+.header-image > img{
+  width: 240px;
+}
+
+.contact {
+  background-color: white;
+  min-height: 15vh;
+}
+
+.contact-text{
+  color: rgb(42, 36, 81);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
