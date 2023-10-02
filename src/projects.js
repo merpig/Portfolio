@@ -1,6 +1,6 @@
 const projects = [
     {
-        title: "BuyBitcoinPostage",
+        title: "CoinFlipPostage",
         description: "Allows users to buy postage labels with cryptocurrency",
         imageSource: "./buybitcoinpostage.png",
         technologies: [
@@ -14,7 +14,7 @@ const projects = [
             "Apollo"
         ],
         repository: "",
-        liveLink:"https://buybitcoinpostage.com/"
+        liveLink:"https://www.coinflippostage.com/"
     },
     {
         title: "Class Manager",
