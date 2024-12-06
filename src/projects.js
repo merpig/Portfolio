@@ -14,7 +14,7 @@ const projects = [
             "Apollo"
         ],
         repository: "",
-        liveLink:"https://www.coinflippostage.com/"
+        liveLink:""
     },
     {
         title: "Class Manager",
